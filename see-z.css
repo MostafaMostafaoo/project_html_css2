@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 60px;
+}
+
+
+.car{
+    
+    padding: 20px 200px;
+   
+}
+
+.car a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(21, 6, 36);
+    margin: 30px ;
+}
+
+
+.car a:hover{
+    color: blue;
+}
+
+
+.car-1{
+    padding: 20px ;
+
+}
+
+.car-1 a{
+    text-decoration: none;
+    margin: 7px;
+}
+
+.car-1 a:hover{
+
+    color: blue;
+
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.325);
+
+    /* opacity: .10; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.car-2{
+    margin: 0 150px;
+    
+}
+
+
+.car-3{
+    padding: 20px ;
+ 
+}
+
+.car-3 a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    
+    
+}
+
+.car-3 a:hover{
+    background-color: brown;
+    padding: 20px;
+    width: 300px;
+}
+
+.img-1{
+    width: 100%;
+}
+
+
+main{
+    background-color: black;
+    color: white;
+    height: 1300px;
+}
+
+.main-5 h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+.main-5 img{
+    padding-right: 30px;
+}
+
+ 
+
+.main-5 h2{
+
+  display: inline-block; 
+  /* margin: 0 60px; */
+  color: rgba(255, 255, 255, 0.377);
+  font-size: 29px;
+
+  
+}
+
+.home a{
+    background-color: blueviolet;
+    margin: 0 200px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+ 
+.home a:hover{
+    background-color: aqua;
+}
+
+.main-5 p{
+
+    margin-top: -5px;
+    margin-bottom: 50px;
+    line-height: 25px;
+    
+}
+
+.main-5 a{
+    color: white;
+}
+
+
+hr{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80%;
+}
+
+
+.main-10{
+    margin: 20px 200px;
+}
+
+.for-1 img{
+    padding-right: 50px;
+    
+    
+}
+
+.for-1 h2{
+   padding: 25px 0;
+   color: rgba(255, 255, 255, 0.377);
+  font-size: 29px;
+  
+}
+
+
+.for-1 p{
+    margin-top: -20px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+
+.for-1 a{
+
+    color: white;
+}
+.for-1 a:hover{
+    color: blueviolet;
+}
+
+.home-2 {
+
+    text-align: center;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px;
+    width: 150px;
+    margin: 0 610px;
+
+}
+.home-2 a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home-2:hover{
+    background-color: aqua;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main-w i{
+    margin: 20px 0;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.main-e{
+   background-color: aliceblue;
+   height: 80px;
+}
+
+.main-e p{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-w i:hover{
+    /* background-color: rgb(228, 144, 35); */
+   color: rgba(248, 248, 255, 0.547);
+}
